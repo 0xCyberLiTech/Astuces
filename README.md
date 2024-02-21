@@ -1,4 +1,4 @@
-![Nagios](./images/nagios.png)
+![Astuces](./images/nagios.png)
 
 ## ASTUCES.
 
