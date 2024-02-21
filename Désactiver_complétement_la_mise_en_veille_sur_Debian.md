@@ -1,6 +1,4 @@
 
-
-
 Désactiver complétement la mise en veille sur Debian
 
 Quand on a un serveur Debian qui tourne avec gnome, la gestion de l’énergie sous gnome peut mettre en veille le système. C’est pas adapté à un fonctionnement de type serveur.
