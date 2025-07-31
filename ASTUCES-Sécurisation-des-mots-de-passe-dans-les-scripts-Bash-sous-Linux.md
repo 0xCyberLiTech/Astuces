@@ -52,8 +52,6 @@
 
 # 🔐 Sécurisation des mots de passe dans les scripts Bash sous Linux.
 
-## 🎯 Objectifs pédagogiques
-
 - Comprendre les risques liés au stockage de mots de passe dans les scripts.
 - Apprendre différentes méthodes pour sécuriser un mot de passe en Bash.
 - Mettre en pratique ces méthodes à travers un TP guidé.
