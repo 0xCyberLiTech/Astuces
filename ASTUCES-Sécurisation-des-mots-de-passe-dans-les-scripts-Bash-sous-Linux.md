@@ -43,9 +43,9 @@
 
 ### 🎯 **Objectif de ce dépôt.**
 
-> Ce dépôt a pour vocation de centraliser un ensemble de notions clés concernant la pile LAMP (Linux, Apache, MySQL/MariaDB, PHP/Perl/Python). Il s’adresse aux passionnés, étudiants et professionnels souhaitant
-> mieux comprendre cette architecture web open-source, apprendre à déployer et gérer des applications basées sur LAMP, et se familiariser avec les concepts et outils essentiels à son bon fonctionnement et à son
-> optimisation.
+> Ce dépôt a pour vocation de centraliser un ensemble de bonnes pratiques, d'astuces et de notions clés autour de la sécurité sous Linux.
+> Il s’adresse aux passionnés, étudiants et professionnels souhaitant renforcer leurs compétences en sécurisation des systèmes GNU/Linux.
+> L’objectif est de fournir des conseils concrets pour durcir un système, comprendre les risques courants, et maîtriser les outils essentiels pour auditer, surveiller et sécuriser efficacement son environnement Linux, que ce soit en poste de travail, serveur ou infrastructure cloud.
 
 ---
 
