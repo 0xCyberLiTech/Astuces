@@ -40,7 +40,8 @@
 
 ## 🎯 Objectif
 
-Apprendre à **analyser un e-mail suspect** à travers un **exemple fictif**, en appliquant une **méthodologie simple et claire**. Ce scénario est un exercice pour s’entraîner à repérer les signes d’un **mail malveillant**.
+> Apprendre à **analyser un e-mail suspect** à travers un **exemple fictif**, en appliquant une **méthodologie simple et claire**. 
+> Ce scénario est un exercice pour s’entraîner à repérer les signes d’un **mail malveillant**.
 
 ---
 
