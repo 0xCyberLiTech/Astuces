@@ -155,3 +155,5 @@ Une **sandbox est un outil fondamental** pour tout étudiant, analyste ou passio
 <p align="center">
   <b>🔒 Un guide proposé par <a href="https://github.com/0xCyberLiTech">0xCyberLiTech</a> • Pour des tutoriels accessibles à tous. 🔒</b>
 </p>
+
+| 05  | Introduction à l'utilisation des Sandbox en Cybersécurité       | [![Voir](https://img.shields.io/badge/Voir-01-blue)](ASTUCES-Introduction-à-l-utilisation-des-Sandbox-en-Cybersécurité.md) |
