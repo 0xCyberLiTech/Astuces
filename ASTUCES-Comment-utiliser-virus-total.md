@@ -6,7 +6,7 @@
 
 
   <p align="center">
-    <em>Comment utiliser Virus Total ?</em><br>
+    <em>À quoi sert VirusTotal ?</em><br>
     <b>🌐 Web – 🔐 Sécurité – 🚀 Performance</b>
   </p>
 
@@ -44,7 +44,7 @@
 
 ---
 
-# 🛡️ À quoi sert VirusTotal ? (Cours clair et pédagogique)
+# 🛡️ À quoi sert VirusTotal ?
 
 ## 🔍 Introduction
 
