@@ -6,7 +6,7 @@
 
 
   <p align="center">
-    <em>Sécurisation des mots de passe dans les scripts Bash sous Linux.</em><br>
+    <em> Qu’est-ce qu’un Hash ?</em><br>
     <b>🌐 Web – 🔐 Sécurité – 🚀 Performance</b>
   </p>
 
@@ -44,7 +44,7 @@
 
 ---
 
-# 🔐 Qu’est-ce qu’un Hash ? (Cours pédagogique)
+# 🔐 Qu’est-ce qu’un Hash ?
 
 ## 📘 Définition
 
