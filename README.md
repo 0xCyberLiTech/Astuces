@@ -49,6 +49,7 @@
 | Nº  | Astuce                              | Lien vers la section                                                  |
 |-----|-------------------------------------|-----------------------------------------------------------------------|
 | 01  | Sécurisation des mots de passe (script bash/Linux).             | [![Voir](https://img.shields.io/badge/Voir-01-blue)](ASTUCES-Sécurisation-des-mots-de-passe-dans-les-scripts-Bash-sous-Linux.md) |
+| 01  | Qu'est-ce qu'un hash ?                                          | [![Voir](https://img.shields.io/badge/Voir-01-blue)](ASTUCES-Qu-est-ce-qu-un-hash.md) |
 
 ---
 
