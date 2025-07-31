@@ -7,8 +7,9 @@
 <div align="center">
 
   <a href="https://github.com/0xCyberLiTech">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&pause=1000&color=D14A4A&center=true&vCenter=true&width=700&lines=SERVEUR+WEB+APACHE2;VirtualHosts+•+.htaccess+•+Sécurité;Guides+et+Bonnes+Pratiques" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&pause=1000&color=D14A4A&center=true&vCenter=true&width=800&lines=ASTUCES+SÉCURITÉ+LINUX+%F0%9F%94%91;Pare-feu+•+Permissions+•+Surveillance;Scripts+•+Audit+•+Bonnes+Pratiques" alt="Typing SVG" />
   </a>
+
 
   <p align="center">
     <em>Sécurisation des mots de passe dans les scripts Bash sous Linux.</em><br>
