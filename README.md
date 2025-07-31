@@ -49,7 +49,11 @@
 
 ---
 
+# Sommaire :
 
+| Nº  | Astuce                              | Lien vers la section                                                  |
+|-----|-------------------------------------|-----------------------------------------------------------------------|
+| 01  |  Installation & utilisation de MariaDB.             | [![Voir](https://img.shields.io/badge/Voir-01-blue)](https://github.com/0xCyberLiTech/MySQL/blob/main/MySQL-Installation-utilisation.md) |
 
 ---
 
