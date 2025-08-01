@@ -56,7 +56,7 @@
 | 04  | Qu’est-ce qu’un token ?                                         | [![Voir](https://img.shields.io/badge/Voir-01-blue)](ASTUCES_Qu-est-ce-qu-un-token-en-sécurité.md) |
 
 
-
+ASTUCES_Qu-est-ce-qu-un-cookie-et-comment-ça-fonctionne.md
 ---
 
 <p align="center">
