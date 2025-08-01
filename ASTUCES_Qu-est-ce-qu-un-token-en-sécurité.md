@@ -37,38 +37,62 @@
 
 ---
 
-# Qu’est-ce qu’un *token* en sécurité ?
+# 🔑 Qu’est-ce qu’un *token* en sécurité ?
+
+## 🎯 Objectif du document
+Ce document explique **ce qu’est un token**, **son rôle en cybersécurité** et **les bonnes pratiques d’implémentation**.  
+Il est conçu pour :  
+- **Les étudiants** qui souhaitent comprendre les bases de l’authentification moderne
+- **Les professionnels** qui veulent maîtriser les aspects techniques et sécuritaires
+
+---
 
 ## 🧠 Définition pédagogique
 
-> En cybersécurité, un **token** (ou jeton) est une **valeur générée automatiquement** qui permet à un utilisateur ou un système de prouver son identité sans avoir à transmettre un mot de passe à chaque requête.  
->
->Il est souvent utilisé dans les systèmes d'authentification et d'autorisation, notamment dans les API, les applications web et les services distribués.
+En cybersécurité, un **token** (ou *jeton*) est une **valeur unique générée automatiquement** permettant à un utilisateur ou un système de prouver son identité **sans envoyer son mot de passe à chaque requête**.
 
-### 🔐 À quoi sert un token ?
-- **Authentifier** un utilisateur une fois connecté.
+📌 **Exemples d’utilisation :**
+- Authentification via API
+- Accès sécurisé à des données dans une application web
+- Communication sécurisée entre microservices
+
+> 💡 **Important :** Un token ne contient pas obligatoirement des informations sensibles, mais il doit être protégé car il donne un accès à des ressources.
+
+---
+
+## 🔐 À quoi sert un token ?
+- **Authentifier** un utilisateur une seule fois, puis réutiliser le token pour prouver son identité.
 - **Protéger** les communications contre les accès non autorisés.
-- **Simplifier** les échanges entre services ou systèmes.
-- **Limiter** la durée d’accès (grâce à une date d’expiration).
+- **Simplifier** les échanges entre applications ou services.
+- **Limiter** la durée d’accès (expiration planifiée).
+
+📌 **Exemple concret (étudiant)** :  
+Quand vous vous connectez à un site, un token peut remplacer votre mot de passe pour toutes vos actions pendant un certain temps.
+
+📌 **Exemple technique (pro)** :  
+Dans une API REST, un token JWT est envoyé dans chaque requête via l’en-tête :
+```
+Authorization: Bearer <TOKEN>
+```
 
 ---
 
 ## 🛠️ Types courants de tokens
 
-| Type de Token        | Usage principal                         |
-|----------------------|------------------------------------------|
-| **JWT**              | Authentification via APIs REST           |
-| **OAuth Access Token** | Accès sécurisé à des ressources tierces |
-| **CSRF Token**       | Protection contre les attaques CSRF      |
-| **Session Token**    | Sessions utilisateurs dans les applis web|
+| Type de Token           | Usage principal                                | Exemple concret |
+|-------------------------|-----------------------------------------------|----------------|
+| **JWT** (*JSON Web Token*) | Authentification via APIs REST               | Connexion à un tableau de bord web |
+| **OAuth Access Token**  | Accès sécurisé à des ressources tierces       | Connexion via "Se connecter avec Google" |
+| **CSRF Token**          | Protection contre les attaques CSRF           | Validation d’un formulaire bancaire |
+| **Session Token**       | Gestion des sessions utilisateurs             | Sites e-commerce |
 
 ---
 
 ## 💡 Exemple concret : Authentification avec JWT
 
-### 1. 🔐 Connexion utilisateur
-L’utilisateur se connecte via un formulaire.  
-Le backend vérifie les identifiants, puis **génère un JWT signé** contenant des informations comme :
+### 1️⃣ Connexion utilisateur
+L’utilisateur saisit ses identifiants.  
+Le serveur vérifie et **génère un JWT signé** contenant :  
 ```json
 {
   "sub": "123456",
@@ -78,45 +102,72 @@ Le backend vérifie les identifiants, puis **génère un JWT signé** contenant 
 }
 ```
 
-### 2. 🎫 Envoi du token
-Le backend renvoie le token au frontend, qui le stocke (ex. : dans le `localStorage` ou un cookie sécurisé).
+### 2️⃣ Envoi du token au client
+Le serveur retourne le token au navigateur, qui peut le stocker dans :
+- **Cookie sécurisé (`HttpOnly`, `Secure`)**
+- **Mémoire d’application (variable locale)**
 
-### 3. 📲 Appels API sécurisés
-À chaque requête API, le frontend envoie le token dans l’en-tête HTTP :
+### 3️⃣ Utilisation pour accéder à une API
+À chaque appel API :  
 ```
-Authorization: Bearer <le_token>
+Authorization: Bearer <TOKEN>
 ```
 
-### 4. 🛡️ Vérification côté serveur
-Le backend vérifie la validité du token :
-- Signature correcte ✅
-- Expiration non atteinte ⏳
-- Permissions adéquates 🔒
+### 4️⃣ Vérification côté serveur
+- Vérification **signature** ✅
+- Vérification **expiration** ⏳
+- Vérification **permissions** 🔒
 
-Si tout est OK, l’accès est accordé.
+Si tout est OK → accès autorisé.
 
 ---
 
 ## ✅ Avantages des tokens
 
-- Stateless (pas besoin de session côté serveur)
-- Sécurisé (si bien implémenté)
-- Adapté aux microservices et APIs
+| Avantage | Explication |
+|----------|-------------|
+| **Sans état** (*stateless*) | Pas besoin de stocker la session côté serveur |
+| **Sécurisé** | Signature et chiffrement possibles |
+| **Flexible** | Fonctionne sur web, mobile, API |
+| **Scalable** | Idéal pour microservices et environnements distribués |
 
 ---
 
 ## ⚠️ Bonnes pratiques
 
-- Toujours signer et chiffrer les tokens sensibles
-- Définir une expiration courte
-- Stocker côté client de manière sécurisée (éviter `localStorage` si possible)
-- Révoquer les tokens en cas de compromission
+- Signer et chiffrer les tokens contenant des données sensibles
+- Définir une **expiration courte** (ex : 15 minutes)
+- Stocker côté client **de manière sécurisée** (éviter `localStorage`)
+- Révoquer un token compromis
+- Utiliser **HTTPS uniquement** pour éviter l’interception
+
+📌 **Exemple de création sécurisée en Node.js :**
+```javascript
+const jwt = require('jsonwebtoken');
+const token = jwt.sign(
+  { userId: 123, role: 'admin' },
+  process.env.JWT_SECRET,
+  { expiresIn: '15m' }
+);
+```
 
 ---
 
 ## 📚 Conclusion
 
-Les *tokens* sont devenus indispensables en sécurité moderne pour garantir une **authentification fluide et sécurisée**. Leur bon usage permet de protéger les utilisateurs, les données, et les systèmes.
+Les tokens sont essentiels pour une **authentification moderne, sécurisée et performante**.  
+Bien implémentés, ils permettent :
+- D’améliorer la sécurité
+- De faciliter les connexions multi-plateformes
+- D’offrir une expérience utilisateur fluide
+
+---
+
+## 🔗 Références utiles
+
+- [JWT.io - Introduction aux JWT](https://jwt.io/introduction)  
+- [OAuth 2.0 - RFC 6749](https://datatracker.ietf.org/doc/html/rfc6749)  
+- [OWASP - API Security](https://owasp.org/www-project-api-security/)  
 
 ---
 
