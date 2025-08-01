@@ -1,9 +1,10 @@
 <div align="center">
 
+  <br></br>
   <a href="https://github.com/0xCyberLiTech">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&pause=1000&color=D14A4A&center=true&vCenter=true&width=800&lines=ASTUCES+SÉCURITÉ+LINUX;Pare-feu+•+Permissions+•+Surveillance;Scripts+•+Audit+•+Bonnes+Pratiques" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=50&duration=6000&pause=1000000000&color=FF0048&center=true&vCenter=true&width=1100&lines=%3EASTUCES_" alt="Titre dynamique ASTUCES" />
   </a>
-
+  <br></br>
 
   <p align="center">
     <em>Sécurisation des mots de passe dans les scripts Bash sous Linux.</em><br>
