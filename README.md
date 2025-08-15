@@ -46,6 +46,9 @@
 
 ---
 
+
+<div align="center">
+  
 ### 🧭 **Sommaire**
 
 | Nº  | Astuce                              | Lien vers la section                                                  |
@@ -56,6 +59,8 @@
 | 04  | Détection d'un Mail Malveillant.                                | [![Voir](https://img.shields.io/badge/Voir-01-blue)](ASTUCES-Détection-d-un-Mail-Malveillant.md) |
 | 05  | Qu’est-ce qu’un token ?                                         | [![Voir](https://img.shields.io/badge/Voir-01-blue)](ASTUCES_Qu-est-ce-qu-un-token-en-sécurité.md) |
 | 06  | Qu'est-ce qu'un cookie et comment ça fonctionne ?               | [![Voir](https://img.shields.io/badge/Voir-01-blue)](ASTUCES_Qu-est-ce-qu-un-cookie-et-comment-ça-fonctionne.md) |
+
+</div>
 
 ---
 
