@@ -23,8 +23,8 @@
     <a href="https://github.com/0xCyberLiTech/Apache2/releases/latest">
       <img src="https://img.shields.io/github/v/release/0xCyberLiTech/Apache2?label=version&style=flat-square&color=blue" alt="📦 Dernière version" />
     </a>
-    <a href="https://github.com/0xCyberLiTech/Apache2/blob/main/CHANGELOG.md">
-      <img src="https://img.shields.io/badge/📄%20Changelog-Apache2-blue?style=flat-square" alt="📄 CHANGELOG" />
+    <a href="https://github.com/0xCyberLiTech/Astuce/blob/main/CHANGELOG.md">
+      <img src="https://img.shields.io/badge/📄%20Changelog-Astuce-blue?style=flat-square" alt="📄 CHANGELOG Astuce" />
     </a>
     <a href="https://github.com/0xCyberLiTech?tab=repositories">
       <img src="https://img.shields.io/badge/Dépôts-publics-blue?style=flat-square" alt="📂 Dépôts publics" />
