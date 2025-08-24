@@ -21,16 +21,16 @@
       <img src="https://img.shields.io/badge/Profil-GitHub-181717?logo=github&style=flat-square" alt="🔗 Profil GitHub" />
     </a>
     <a href="https://github.com/0xCyberLiTech/Astuces/releases/latest">
-      <img src="https://img.shields.io/github/v/release/0xCyberLiTech/Astuce?label=version&style=flat-square&color=blue" alt="📦 Dernière version" />
+      <img src="https://img.shields.io/github/v/release/0xCyberLiTech/Astuces?label=version&style=flat-square&color=blue" alt="📦 Dernière version" />
     </a>
     <a href="https://github.com/0xCyberLiTech/Astuces/blob/main/CHANGELOG.md">
-      <img src="https://img.shields.io/badge/📄%20Changelog-Astuce-blue?style=flat-square" alt="📄 CHANGELOG Astuce" />
+      <img src="https://img.shields.io/badge/📄%20Changelog-Astuces-blue?style=flat-square" alt="📄 CHANGELOG Astuces" />
     </a>
     <a href="https://github.com/0xCyberLiTech?tab=repositories">
       <img src="https://img.shields.io/badge/Dépôts-publics-blue?style=flat-square" alt="📂 Dépôts publics" />
     </a>
     <a href="https://github.com/0xCyberLiTech/Astuces/graphs/contributors">
-      <img src="https://img.shields.io/badge/👥%20Contributeurs-cliquez%20ici-007ec6?style=flat-square" alt="👥 Contributeurs Astuce" />
+      <img src="https://img.shields.io/badge/👥%20Contributeurs-cliquez%20ici-007ec6?style=flat-square" alt="👥 Contributeurs Astuces" />
     </a>
   </p>
 
