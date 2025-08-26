@@ -8,10 +8,7 @@
   
   <br></br>
 
-  <p align="center">
-    <em>Sécurisation des mots de passe dans les scripts Bash sous Linux.</em><br>
-    <b>🌐 Web – 🔐 Sécurité – 🚀 Performance</b>
-  </p>
+  <h2>Laboratoire numérique pour la cybersécurité, Linux & IT</h2>
 
   <p align="center">
     <a href="https://0xcyberlitech.github.io/">
