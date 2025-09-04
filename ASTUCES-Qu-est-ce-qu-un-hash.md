@@ -139,3 +139,4 @@ Tape un mot, observe le hash. Change un seul caractère : le hash change totalem
 <p align="center">
   <b>🔒 Un guide proposé par <a href="https://github.com/0xCyberLiTech">0xCyberLiTech</a> • Pour des tutoriels accessibles à tous. 🔒</b>
 </p>
+
