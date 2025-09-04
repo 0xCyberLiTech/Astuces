@@ -33,10 +33,6 @@
   
 </div>
 
-<!--
-Optimisation SEO : astuces, cybersécurité, Linux, sécurité informatique, tutoriels, guides, administration système, scripts Bash, Debian, analyse de malware, hash, mots de passe, sandbox, VirusTotal, détection de mails malveillants, open source, token, cookie, ressources techniques, étudiants, professionnels, formation, réseau, IT, bonnes pratiques, passionnés.
--->
-
 <div align="center">
   <img src="https://img.icons8.com/fluency/96/000000/cyber-security.png" alt="CyberSec" width="80"/>
 </div>
@@ -62,7 +58,7 @@ Le contenu est structuré, accessible et optimisé SEO pour répondre aux besoin
 
 ---
 
-# 🍪 Qu'est-ce qu'un cookie et comment ça fonctionne ?
+## 🍪 Qu'est-ce qu'un cookie et comment ça fonctionne ?
 
 ## 🎯 Objectif du document
 Ce document explique **ce qu’est un cookie**, **son rôle dans le web** et **les bonnes pratiques de sécurité**.  

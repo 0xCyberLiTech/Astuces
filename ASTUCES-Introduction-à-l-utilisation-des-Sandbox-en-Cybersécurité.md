@@ -1,17 +1,14 @@
 <div align="center">
 
   <br></br>
-
+  
   <a href="https://github.com/0xCyberLiTech">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&pause=1000&color=D14A4A&center=true&vCenter=true&width=800&lines=ASTUCES+SÉCURITÉ+LINUX;Pare-feu+•+Permissions+•+Surveillance;Scripts+•+Audit+•+Bonnes+Pratiques" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=50&duration=6000&pause=1000000000&color=FF0048&center=true&vCenter=true&width=1100&lines=%3EASTUCES_" alt="Titre dynamique ASTUCES" />
   </a>
-
+  
   <br></br>
 
-  <p align="center">
-    <em>Introduction à l'utilisation des Sandbox en Cybersécurité.</em><br>
-    <b>🌐 Web – 🔐 Sécurité – 🚀 Performance</b>
-  </p>
+  <h2>Laboratoire numérique pour la cybersécurité, Linux & IT</h2>
 
   <p align="center">
     <a href="https://0xcyberlitech.github.io/">
@@ -33,24 +30,31 @@
       <img src="https://img.shields.io/badge/👥%20Contributeurs-cliquez%20ici-007ec6?style=flat-square" alt="👥 Contributeurs Astuces" />
     </a>
   </p>
+  
+</div>
 
+<div align="center">
+  <img src="https://img.icons8.com/fluency/96/000000/cyber-security.png" alt="CyberSec" width="80"/>
+</div>
+
+<div align="center">
+  <p>
+    <strong>Cybersécurité</strong> <img src="https://img.icons8.com/color/24/000000/lock--v1.png"/> • <strong>Linux Debian</strong> <img src="https://img.icons8.com/color/24/000000/linux.png"/> • <strong>Sécurité informatique</strong> <img src="https://img.icons8.com/color/24/000000/shield-security.png"/>
+  </p>
 </div>
 
 ---
 
-### 👨‍💻 **À propos de moi.**
+## 🚀 À propos & Objectifs
 
-> Bienvenue dans mon **laboratoire numérique personnel** dédié à l’apprentissage et à la vulgarisation de la cybersécurité.  
-> Passionné par **Linux**, la **cryptographie** et les **systèmes sécurisés**, je partage ici mes notes, expérimentations et fiches pratiques.  
->  
- > Proposer un contenu clair, structuré et accessible pour étudiants, curieux et professionnels de l’IT.  
-> 🔗 [Mon GitHub principal](https://github.com/0xCyberLiTech)
+Ce projet propose des solutions innovantes et accessibles en cybersécurité, avec une approche centrée sur la simplicité d’utilisation et l’efficacité. Il vise à accompagner les utilisateurs dans la protection de leurs données et systèmes, tout en favorisant l’apprentissage et le partage des connaissances.
 
-<p align="center">
-  <a href="https://github.com/0xCyberLiTech" target="_blank" rel="noopener">
-    <img src="https://skillicons.dev/icons?i=linux,debian,bash,docker,nginx,git,vim" alt="Skills" alt="Logo techno" width="300">
-  </a>
-</p>
+Le contenu est structuré, accessible et optimisé SEO pour répondre aux besoins de :
+- 🎓 Étudiants : approfondir les connaissances
+- 👨‍💻 Professionnels IT : outils et pratiques
+- 🖥️ Administrateurs système : sécuriser l’infrastructure
+- 🛡️ Experts cybersécurité : ressources techniques
+- 🚀 Passionnés du numérique : explorer les bonnes pratiques
 
 ---
 
