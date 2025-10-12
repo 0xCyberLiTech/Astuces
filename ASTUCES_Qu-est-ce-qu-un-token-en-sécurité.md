@@ -85,7 +85,7 @@ En cybersécurité, un **token** (ou *jeton*) est une **valeur unique générée
 
 ---
 
-## 🔐 À quoi sert un token ?
+## 🔐 À quoi va servir un token ?
 - **Authentifier** un utilisateur une seule fois, puis réutiliser le token pour prouver son identité.
 - **Protéger** les communications contre les accès non autorisés.
 - **Simplifier** les échanges entre applications ou services.
