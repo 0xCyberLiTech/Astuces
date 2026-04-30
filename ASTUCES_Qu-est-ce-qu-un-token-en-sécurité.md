@@ -236,3 +236,7 @@ Bien implémentés, ils permettent :
 </table>
 
 <br/>
+
+<b>🔒 Un projet proposé par <a href="https://github.com/0xCyberLiTech">0xCyberLiTech</a> • Développé en collaboration avec <a href="https://claude.ai">Claude AI</a> (Anthropic) 🔒</b>
+
+</div>
