@@ -54,6 +54,7 @@ systemd-analyze security
 - **Niveau 2 — Repères Officiels (Ports IANA, Fichiers Debian &amp; Commandes de Validation) :** **Commandes de référence :** `ip -c a` & `ip -c r` (Réseau) · `ss -tulnp` (Sockets actifs) · `systemctl status <unite>` · `journalctl -xeu <unite>` · `df -hT` & `lsblk -f` (Stockage).
 - **Niveau 3 — Diagnostic d'Incidents &amp; Ingénierie Avancée :** **Diagnostic & Architecture :** Avant toute modification d'un fichier de configuration en production, créez systématiquement une sauvegarde horodatée, utilisez un éditeur ou un testeur syntaxique natif, et privilégiez l'élévation nominative **`sudo`** (tracée dans les journaux d'audit) plutôt qu'une session directe sous le compte `root`.
 - **Sources de Vérité Officielles Éditeurs &amp; Standards :** [Manuel Officiel de l'Administrateur Debian](https://www.debian.org/doc/manuals/debian-handbook/) &nbsp;·&nbsp; [Documentation Officielle Systemd](https://systemd.io/)
+- **Livres Blancs &amp; 67 Podcasts Audio R&amp;D :** [Portail 0xCyberLiTech](https://0xcyberlitech.com/) &nbsp;·&nbsp; [Livre Blanc SOC Cockpit v5.5](https://0xcyberlitech.com/soc-rd.html) &nbsp;·&nbsp; [Livre Blanc JARVIS Mark-VII](https://0xcyberlitech.com/jarvis-rd.html) &nbsp;·&nbsp; [Blueprint Logiciel &amp; Matériel RTX 5080](https://0xcyberlitech.com/blueprint-jarvis.html)
 
 </details>
 <!-- CIEL-PEDAGOGY-END -->
